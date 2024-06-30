@@ -21,14 +21,14 @@ export default function About() {
       <p className="mb-3">
         Setelah lulus dengan gelar sarjana di bidang{" "}
         <span className="font-medium">Biologi</span>, saya memutuskan untuk mengejar minat dan kemampuan saya di bidang pemprograman. 
-        Saya mendaftar banyak kelas training coding secara online tanpa adanya disalurkan kerja dan belajar pengembangan{" "}
+        Saya mendaftar banyak kelas training coding dan fokus pengembangan skills pemrograman di{" "}
         <span className="font-medium">Full Stack Website Development</span>.{" "}
         <span className="font-medium">Bagian favorit saya dari pemprograman adalah</span> aspek pemecahan masalah. Saya suka
         menyelesaikan suatu masalah dan solusinya dapat ditemukan. Kemampuan pemprograman saya antara lain{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, Express.js, Codeigniter, Laravel, dan MongoDB
+           Vue js, Laravel, MySQL, React, dan Next js
         </span>
-        . Saya familiar dengan typescript. Saya selalu mempelajari teknologi baru. Saya juga senang{" "}
+        . Saya familiar dengan JQuery, dan PHP. Dan saya juga senang{" "}
         <span className="font-medium">mempelajari hal-hal baru dengan cepat.</span>{" "}Saat ini saya sedang mencari posisi{" "}
         <span className="font-medium">kerja full-time</span> sebagai Backend Web Developer.
         

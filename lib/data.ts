@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Project1 from "@/public/Project1.png"
-import Project2 from "@/public/Project2.png"
-import Project3 from "@/public/Project3.png"
+import Project1 from "@/public/resto.png"
+import Project2 from "@/public/grosir.png"
+import Project3 from "@/public/ecommerce.png"
+import Project4 from "@/public/travel.png"
+import Project5 from "@/public/klinik.png"
 
 export const links = [
   {
@@ -27,44 +29,58 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Anime Pedia Website",
+    title: "Resto Web",
     description:
-      "Project website ini menggunakan framework Next JS dengan fitur stream video dan mesin pencarian",
-    tags: ["React", "Next.js", "Tailwind"],
+      "Username: admin, Password: admin",
+    tags: ["Laravel", "Bootstrap", "JQuery"],
     imageUrl: Project1,
-    web:"https://animepedia-rho.vercel.app/"
+    web:"https://resto.ataufikr.biz.id/"
   },
   {
-    title: "Website CRUD",
+    title: "Laravel Store (Point Of Sales Website)",
     description:
-      "Project website ini menggunakan framework Laravel version 9",
-    tags: ["PHP", "Laravel", "Bootstrap"],
+      "Username: admin@mail.com, Password: admin; Username: user1@mail.com, Password: user1",
+    tags: ["JQuery", "Laravel", "Bootstrap"],
     imageUrl: Project2,
-    web:"https://laravel-crud.taufikr.my.id/books"
+    web:"https://grosir.ataufikr.biz.id/"
   },
   {
-    title: "Website CRUD-IMAGE",
+    title: "E-Commerce Web",
     description:
-      "Project website ini menggunakan framework Laravel 10 dengan tambahan fitur upload file image",
-    tags: ["PHP", "Laravel", "Bootstrap"],
+      "Admin Panel Link : https://ecommerce.ataufikr.biz.id/admin/login, Username: admin@mail.com, Password: admin123",
+    tags: ["Vue JS", "Laravel", "Tailwind"],
     imageUrl: Project3,
-    web:"https://crud-image.taufikr.my.id/post"
+    web:"https://ecommerce.ataufikr.biz.id/"
   },
+  {
+    title: "Travel Web",
+    description:
+      "Access Admin Panel, Username: admin@admin.com, Password: admin12345",
+    tags: ["Laravel", "Bootstrap", "JQuery"],
+    imageUrl: Project4,
+    web:"http://travel-agency.ataufikr.biz.id/"
+  },
+  {
+    title: "Klinik Web",
+    description:
+      "User: admin@mail.com password : admin;  User: dokter-a@mail.com password : dokter;  User: apoteker@mail.com password : apoteker",
+    tags: ["Laravel Filament"],
+    imageUrl: Project5,
+    web:"https://klinik.ataufikr.biz.id/"
+  }
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "PHP",
   "JavaScript",
-  "TypeScript",
+  "JQuery",
   "React",
+  "Vue JS",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "MongoDB",
-  "Express",
   "MySQL",
-  "Codeigniter",
   "Laravel",
 ] as const;

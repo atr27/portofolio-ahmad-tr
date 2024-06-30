@@ -62,12 +62,12 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
        />
         <span className="font-bold">Halo, Perkenalkan nama saya Ahmad Taufik R.</span> Saya adalah{" "}
-        <span className="font-bold"> seorang full stack developer tingkat pemula</span> dan memiliki{" "}
+        <span className="font-bold"> seorang web developer tingkat junior</span> dan memiliki{" "}
         <span className="font-bold">pengalaman telah membuat beberapa project website</span>{" "}
-        <span>dengan menggunakan berbagai macam framework disesuaikan kebutuhan.</span>
+        <span>dengan menggunakan berbagai macam framework yang disesuaikan dengan kebutuhan perkembangan zaman.</span>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 my-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -85,7 +85,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/sertifikat.pdf"
+          href="/sertifikat-ahmadtr.pdf"
           download
         >
           Download Sertifikat{""}
