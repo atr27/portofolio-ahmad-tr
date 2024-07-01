@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         Setelah lulus dengan gelar sarjana di bidang{" "}
-        <span className="font-medium">Biologi</span>, saya memutuskan untuk mengejar minat dan kemampuan saya di bidang pemprograman. 
+        <span className="font-medium">Pendidikan Biologi</span>, saya memutuskan untuk mengejar minat dan kemampuan saya di bidang pemprograman. 
         Saya mendaftar banyak kelas training coding dan fokus pengembangan skills pemrograman di{" "}
         <span className="font-medium">Full Stack Website Development</span>.{" "}
         <span className="font-medium">Bagian favorit saya dari pemprograman adalah</span> aspek pemecahan masalah. Saya suka
