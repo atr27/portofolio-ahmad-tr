@@ -19,19 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Setelah lulus dengan gelar sarjana di bidang{" "}
-        <span className="font-medium">Pendidikan Biologi</span>, saya memutuskan untuk mengejar minat dan kemampuan saya di bidang pemprograman. 
+        Setelah lulus dengan gelar sarjana, saya memutuskan untuk mengejar minat dan kemampuan saya di bidang pemprograman. 
         Saya mendaftar banyak kelas training coding dan fokus pengembangan skills pemrograman di{" "}
         <span className="font-medium">Full Stack Website Development</span>.{" "}
-        <span className="font-medium">Bagian favorit saya dari pemprograman adalah</span> aspek pemecahan masalah. Saya suka
+        <span className="font-medium">Bagian favorit saya dari pemprograman adalah</span> aspek pengembangan di bagian frontend dan backend. Saya suka
         menyelesaikan suatu masalah dan solusinya dapat ditemukan. Kemampuan pemprograman saya antara lain{" "}
         <span className="font-medium">
-           Vue js, Laravel, MySQL, React, dan Next js
+           Vue js, Laravel, MySQL, React, Next js, Express js, MongoDB, PostgreSQL, Docker, Spring Boot, Django, dan Flutter
         </span>
-        . Saya familiar dengan JQuery, dan PHP. Dan saya juga senang{" "}
+        . Saya familiar dengan Java, Python, dan PHP. Dan saya juga senang{" "}
         <span className="font-medium">mempelajari hal-hal baru dengan cepat.</span>{" "}Saat ini saya sedang mencari posisi{" "}
-        <span className="font-medium">kerja full-time</span> sebagai Backend Web Developer.
-        
+        <span className="font-medium">kerja full-time di kantor </span> sebagai Frontend atau Backend Web Developer.
+        Saya juga senang belajar dan mengembangkan aplikasi mobile dengan Flutter.
       </p>
     
     </motion.section>
