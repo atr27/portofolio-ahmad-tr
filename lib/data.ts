@@ -1,5 +1,6 @@
 import Project1 from "@/public/StreamWeb.png"
 import Project2 from "@/public/grosir.png"
+import Project3 from "@/public/anime.png"
 
 export const links = [
   {
@@ -37,6 +38,14 @@ export const projectsData = [
     imageUrl: Project2,
     web:"http://grosir.ataufikr.my.id/"
   },
+  {
+    title: "Website List Anime",
+    description:
+      "This is a website about all list anime.",
+    tags: ["Tailwind", "Next JS"],
+    imageUrl: Project3,
+    web:"https://animepedia-rho.vercel.app/"
+  }
 ] as const;
 
 export const skillsData = [
